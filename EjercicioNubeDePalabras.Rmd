@@ -9,8 +9,8 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 
 # Cargar las librerías necesarias
-library(__________) #Para usar dplyr
-library(__________) #Para usar tidytext
+library(dplyr) #Para usar dplyr
+library(tidytext) #Para usar tidytext
 library(wordcloud2)
 library(tm)
 library(readr)
